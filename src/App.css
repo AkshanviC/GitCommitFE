@@ -1,7 +1,41 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 20px 10%;
+  background: #fbfdff;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-clmn {
+  display: flex;
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.gapP5 {
+  gap: 0.5rem;
+}
+.txt-al-r {
+  text-align: right;
+}
+.header {
+  color: #39496a;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,8 +58,60 @@
   color: white;
 }
 
+.marginb-5 {
+  margin-bottom: 5px;
+}
 .App-link {
   color: #61dafb;
+}
+.removed {
+  background-color: #ffe4e9;
+}
+.added {
+  background-color: #d8ffcb;
+}
+body {
+  font-family: Arial;
+  font-weight: 400;
+  size: 14px;
+  line-height: 20px;
+}
+.rotate {
+  rotate: 0deg;
+}
+.notrotate {
+  rotate: 270deg;
+}
+.src-code {
+  font-family: monospace;
+}
+.text-body {
+  color: #39496a;
+}
+.muted {
+  color: #6d727c;
+}
+.link {
+  color: #1c7cd6;
+}
+.code-primary {
+  color: #657b83;
+}
+.color-secondary {
+  color: #6078a9;
+}
+.mar2rem {
+  margin-top: 2rem;
+}
+.codebox {
+  border: 1px solid #e7ebf1;
+  padding: 5px 10px;
+}
+
+.profilepic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 @keyframes App-logo-spin {
